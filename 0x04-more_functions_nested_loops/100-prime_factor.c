@@ -1,30 +1,23 @@
-#include "main.h"
+#include <stdio.h>
+
 
 /**
- * print_triangle - Print triangle dependent on the parameter size.
- * @size : The height of the triangle
- * Return: Void.
+ * main -  calculate largest prime of 612852475143
+ *
+ * Return: Success Always
  */
-void print_triangle(int size)
+int main(void)
 {
-	int i;
-	int j;
-	int k;
+	long int num = 612852475143;
+	long int divr;
 
-	for (i = 0; i < size; i++)
+	for (divr = 2; divr < num; divr++)
 	{
-	for (k = size - 1 - i; k > 0; k--)
-	{
-	_putchar(' ');
+		if (num % divr == 0)
+		{
+			num = num / divr;
+		}
 	}
-	for (j = 0; j <= i; j++)
-	{
-	_putchar('#');
-	}
-	_putchar('\n');
-	}
-	if (size <= 0)
-	{
-	_putchar('\n');
-	}
+	printf("%ld\n", divr);
+	return (0);
 }
