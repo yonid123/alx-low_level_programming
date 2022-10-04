@@ -17,7 +17,7 @@ return (i);
 }
 /**
 *_strcpy - copy arrays
-*@src: array of elements 
+*@src:array of elements 
 *@dest: dest array
 *Return: dest
 */
@@ -34,7 +34,7 @@ return (dest);
 }
 /**
 *_strdup - array for prints a string
-*@str: array of elements 
+*@str:array of elements 
 *Return: pointer
 */
 char *_strdup(char *str)
