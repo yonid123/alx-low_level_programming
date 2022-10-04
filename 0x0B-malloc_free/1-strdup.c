@@ -19,7 +19,8 @@ if (dup)
 {
 while (size--)
 dup[size] = str[size];
-return (dup); } 
+return (dup); 
+} 
 }
 return (NULL);
 }
