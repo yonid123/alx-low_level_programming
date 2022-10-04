@@ -13,13 +13,13 @@ unsigned int size = 0;
 if (str)
 {
 while (str[size++])
- ;
+;
 dup = malloc(sizeof(char) * size);
-if(dup)
+if (dup)
 {
 while (size--)
 dup[size] = str[size];
-return(dup);
+return (dup);
 } 
 }
 return (NULL);
