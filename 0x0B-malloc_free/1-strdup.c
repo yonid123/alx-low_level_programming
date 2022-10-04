@@ -6,9 +6,9 @@
 */
 int _strlen(char *s)
 {
-i = 0;
-unsigned int i;
-i = 0;
+
+unsigned int i = 0;
+
 while (s[i] != '\0')/*count character of string*/
 {
 i++;
@@ -51,6 +51,6 @@ if (dst == 0)
 {
 return (NULL);
 }
-_strcpy(dst, str);
+_srtcpy(dst, str);
 return (dst);
 }
