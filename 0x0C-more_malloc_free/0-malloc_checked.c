@@ -1,5 +1,11 @@
-#include <stdio.h>
+/*
+ * File: 0-malloc_checked.c
+ * Auth: Brennan D Baraban
+ */
+
 #include "main.h"
+#include <stdlib.h>
+
 /**
  * malloc_checked - Allocates memory using malloc.
  * @b: The number of bytes to be allocated.
