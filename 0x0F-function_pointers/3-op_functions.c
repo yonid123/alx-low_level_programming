@@ -7,9 +7,9 @@
  * @b: input two
  * Return: 0
  */
-int op_add(int a, int b);
+int op_add(int a, int b)
 {
-return (a + b);
+	return (a + b);
 }
 /**
  * op_sub - 5 functions
@@ -19,7 +19,7 @@ return (a + b);
  */
 int op_sub(int a, int b)
 {
-return (a -b);
+	return (a - b);
 }
 /**
  * op_mul - 5 functions
@@ -29,7 +29,7 @@ return (a -b);
  */
 int op_mul(int a, int b)
 {
-return (a * b);
+	return (a * b);
 }
 /**
  * op_div - 5 functions
@@ -39,15 +39,15 @@ return (a * b);
  */
 int op_div(int a, int b)
 {
-return (a / b);
+	return (a / b);
 }
 /**
- * op_div - 5 functions
+ * op_mod - 5 functions
  * @a: input one
  * @b: input two
  * Return: 0
  */
 int op_mod(int a, int b)
 {
-return (a % b);
+	return (a % b);
 }
