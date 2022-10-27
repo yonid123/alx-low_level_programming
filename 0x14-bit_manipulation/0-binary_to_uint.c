@@ -11,17 +11,16 @@
 unsigned int binary_to_uint(const char *b)
 {
 	unsigned int value = 0;
+	int rem, weight;
 
 	if (b == NULL)
 		return (0);
-	while (*b != '\0')
-	{
-		value = value << 1;
-		if (*b != '1' && *b != '0')
-			return (0);
-		else if (*b == '1')
-			value = value | 1;
-		b++;
-	}
+	
+		 while (*b != 0){
+            rem = b%10;
+           value= value + rem*weight;
+            binary = b/10;
+           weight = weight*2;
+		 }
 	return (value);
 }
